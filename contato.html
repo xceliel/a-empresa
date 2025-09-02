@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>A Empresa</title>
+</head>
+
+<body>
+    <main>
+        <header class="clearfix">
+            <div class="header-content">
+                <section>
+                    <div class="logo-content clearfix">
+                        <img class="header-logo" src="assets/img/logo.png" alt="">
+                        <h1 class="header-name">A Empresa</h1>
+                    </div>
+                </section>
+                <section class="theme-switch">
+                </section>
+                <section>
+                    <label class="menu" for="menu">
+                        <input type="checkbox" id="menu">
+                        <span class="icon menu"></span>
+                        <span class="icon close"></span>
+                    </label>
+                    <div class="menu-content">
+                        <nav>
+                            <ul class="regular-menu clearfix">
+                                <li><a href="index.html" class="active">Inicio</a></li>
+                                <li><a href="institucional.html">Institucional</a></li>
+                                <li><a href="produtos.html">Produtos</a></li>
+                                <li><a href="#">Contato</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </section>
+            </div>
+        </header>
+
+
+        <article>
+            <section class="clearfix">
+                <h2>Entre em contato conosco</h2>
+
+                <div class="clearfix">
+                    <p>Preencha nosso formulario de contato:</p>
+                    <form class="contact-form" action="" method="post">
+                        <div class="form-row">
+                            <div class="form-lcol"><label for="name">Nome</label></div>
+                            <div class="form-rcol"><input type="text" name="name" id="name" placeholder="Nome completo"></div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-lcol"><label for="phone">Telefone</label></div>
+                            <div class="form-rcol"><input type="text" id="phone" name="phone" placeholder="Telefone para contato"></div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-lcol"><label for="email">E-mail</label></div>
+                            <div class="form-rcol"><input type="text" id="email" name="email" placeholder="Seu endereço e-mail"></div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-lcol"><label for="where">Onde nos encontrou</label></div>
+                            <div class="form-rcol">
+                                <select name="where" id="where">
+                                    <option value="" selected disabled>Selecione uma opção</option>
+                                    <option value="indica">Indicação</option>
+                                    <option value="feiras">Feiras</option>
+                                    <option value="google">Google</option>
+                                    <option value="redes">Redes Sociais</option>
+                                    <option value="cliente">Ja é cliente</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-lcol"><label for="message">Mensagem</label></div>
+                            <div class="form-rcol">
+                                <textarea name="message" id="message" placeholder="Escreva a sua mensagem"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <input type="submit" value="Enviar" class="normal-link">
+                        </div>
+                    </form>
+                </div>
+                <div class="clearfix">
+                    <h3>Endereço</h3>
+                    <p>123 Main St, Nowhere, OK 73038, USA</p>
+                    <h3>Telefone</h3>
+                    <p>(11) 1234 - 5678</p>
+                </div>
+            </section>
+
+        </article>
+        <footer class="clearfix">
+
+            <section>
+                <div class="footer-logo-content">
+                    <div class="logo-content clearfix">
+                        <img class="footer-logo" src="assets/img/logo.png" alt="">
+                        <h1 class="footer-name">A Empresa</h1>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h3>Menu</h3>
+                <nav>
+                    <ul class="footer-menu clearfix">
+                        <li><a href="index.html" class="active">Inicio</a></li>
+                        <li><a href="institucional.html">Institucional</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section>
+                <h3>Siga-nos</h3>
+                <nav>
+                    <ul class="footer-menu clearfix">
+                        <li><a href="#"><span class="icon whatsapp"></span>Whatsapp</a></li>
+                        <li><a href="#"><span class="icon instagram"></span>Instagram</a></li>
+                        <li><a href="#"><span class="icon facebook"></span>Facebook</a></li>
+                        <li><a href="#"><span class="icon tiktok"></span>TikTok</a></li>
+                    </ul>
+                </nav>
+            </section>
+ 
+        </footer>
+    </main>
+</body>
+
+</html>
