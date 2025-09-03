@@ -536,7 +536,7 @@ div.products-container {
 }
 
 .form-lcol label {
-    padding: 0.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0;
     box-sizing: border-box;
     display: inline-block;
 }
@@ -798,6 +798,12 @@ div.products-container {
 
     .category .desc {
         height: 9rem;
+    }
+
+    .form-lcol,
+    .form-rcol {
+        clear: both;
+        width: 100%;
     }
 
 }
