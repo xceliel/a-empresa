@@ -1,18 +1,23 @@
 {
+  "name": "A Empresa",
+  "short_name": "Empresa",
+  "start_url": "/",
+  "display": "standalone",
+  "description": "Site de empresa generica",
   "icons": [
     {
-      "src": "assets/favicon/icon-192.png",
+      "src": "./assets/favicon/icon-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "assets/favicon/maskable.png",
+      "src": "./assets/favicon/maskable.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "maskable"
     },
     {
-      "src": "assets/favicon/icon-512.png",
+      "src": "./assets/favicon/icon-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
