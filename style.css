@@ -1,6 +1,6 @@
 :root {
     --black: #000;
-    --preblack:#0e0e0e;
+    --preblack: #0e0e0e;
     --evil: #666;
     --five: #555;
     --nevil: #999;
@@ -647,11 +647,11 @@ div.products-container {
 
     .footer-menu a::after {
         border-bottom-color: var(--white);
-    }    
-    
+    }
+
     span.icon {
-        filter:invert(100%);
-    } 
+        filter: invert(100%);
+    }
 
     label.menu {
         background-color: var(--preblack);
@@ -699,7 +699,7 @@ div.products-container {
     .form-rcol textarea:focus,
     .form-rcol select:focus {
         box-shadow: 0px 0px 1px 2px var(--white);
-    }    
+    }
 
     .contact-form input[type=submit] {
         border-color: var(--white);
